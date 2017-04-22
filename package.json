@@ -20,7 +20,9 @@
     "start": "gulp"
   },
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "babel-polyfill": "^6.23.0"
+  },
   "devDependencies": {
     "babel-loader": "^7.0.0",
     "babel-preset-latest": "^6.24.1",
