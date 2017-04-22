@@ -2,11 +2,20 @@
   "name": "docker",
   "version": "1.0.0",
   "main": "index.js",
+  "babel": {
+  "presets": [
+    "latest"
+    ]
+  },
   "scripts": {
-    "start": "node ."
+    "start": "gulp"
   },
   "license": "MIT",
-  "dependencies": {
-    "color": "^1.0.3"
+  "dependencies": {},
+  "devDependencies": {
+    "babel-preset-latest": "^6.24.1",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
   }
 }
